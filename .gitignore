@@ -6,17 +6,6 @@
 
 /node_modules/
 
-/public/*
-!/public/404.html
-!/public/500.html
-!/public/422.html
-!/public/web
-!/public/fonts
-!/public/manifest.json
-!/public/mistri-service-worker.js
-!/public/werkstattportal
-
-!/public/googlee28e20429def0182.html
 /.buildpath
 .DS_Store
 /.project
