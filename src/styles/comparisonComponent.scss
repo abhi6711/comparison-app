@@ -1,0 +1,29 @@
+.comparision-main-container {
+  .compariosn-heading {
+    margin-bottom: 20px;
+  }
+  .fruit-data-card {
+    margin-bottom: 20px;
+  }
+  .cards {
+    display: inline-block;
+    width: calc(25% - 20px);
+    margin: 10px 20px 20px 0px;
+    &:last-child {
+      margin-right: 0px;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .comparision-main-container {
+    .cards {
+      display: inline-block;
+      width: calc(50% - 10px);
+      margin: 10px 20px 20px 0px;
+      &:nth-child(2n) {
+        margin-right: 0px;
+      }
+    }
+  }
+}

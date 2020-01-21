@@ -1,0 +1,117 @@
+.App {
+  text-align: center;
+}
+
+.main-app-container {
+  background: #efeeeea8;
+  min-height: 100vh;
+  padding: 20px 20px 50px 20px;
+}
+
+@mixin roboto-medium {
+  font-family: Roboto;
+  font-weight: 500;
+}
+
+@mixin roboto-light {
+  font-family: Roboto;
+  font-weight: 300;
+}
+
+.font-dark {
+  @include roboto-medium;
+  font-size: 14px;
+  line-height: 1.21;
+  letter-spacing: 0.3px;
+}
+
+.font-dark-light {
+  @include roboto-light;
+  font-size: 14px;
+  line-height: 1.21;
+  letter-spacing: 0.3px;
+}
+
+.font-light {
+  @include roboto-light;
+  font-size: 12px;
+  line-height: 1.21;
+  letter-spacing: 0.3px;
+}
+
+.red {
+  color: #fba2a1;
+}
+
+.bg-red {
+  background: #fba2a1 !important;
+}
+
+.green {
+  color: #38cb7c;
+}
+
+.white {
+  color: #ffffff;
+  border-right: 1px solid white !important;
+}
+
+.bg-green {
+  background: #38cb7c !important;
+}
+
+.blue {
+  color: #176ad4;
+}
+
+.bg-blue {
+  background: #176ad4;
+}
+
+/*display flex row*/
+.dfr {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+/*display flex column*/
+.dfc {
+  display: flex;
+  flex-direction: column;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
